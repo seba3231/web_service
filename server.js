@@ -2,7 +2,13 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send('Hola mundo');
+    var user = req.query.user
+    var password = req.query.password
+    if (user == "admin" && password == "admin123") {
+        res.send(true)
+    } else {
+        res.send(false)
+    }
 });
 
 // Listen to the App Engine-specified port, or 8080 otherwise
