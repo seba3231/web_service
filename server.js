@@ -11,6 +11,7 @@ app.get('/', (req, res) => {
     var user = req.query.user
     var password = req.query.password
     var usuarioEncontrado = autenticarUsuario(user,password)
+    console.log("Usuario: " + user + " - Contraseña: " + password + " - Usuario Encontrado: " + usuarioEncontrado)
     if (usuarioEncontrado) {
         res.send(true)
     } else {
