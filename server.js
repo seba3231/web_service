@@ -3,7 +3,8 @@ const app = express();
 // Array que almacenar usuarios y contraseñas
 const usuarios = [
     { usuario: 'admin', contraseña: 'wmia123' },
-    { usuario: 'gestionambiental', contraseña: 'wmia678' }
+    { usuario: 'gestionambiental', contraseña: 'wmia678' },
+    { usuario: 'dobleele', contraseña: 'wmia123' }
   ];
   
 
