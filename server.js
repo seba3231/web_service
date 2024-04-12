@@ -4,7 +4,8 @@ const app = express();
 const usuarios = [
     { usuario: 'admin', contraseña: 'wmia123' },
     { usuario: 'gestionambiental', contraseña: 'wmia678' },
-    { usuario: 'dobleele', contraseña: 'wmia123' }
+    { usuario: 'dobleele', contraseña: 'wmia123' },
+    { usuario: 'mpp', contraseña: 'wmia609' }
   ];
   
 
